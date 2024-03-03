@@ -4,7 +4,11 @@ let interval = 500; // interval in milliseconds to change the image
 $: boxsize = 100/size; // 100vh divided by the size of each block so that the entire grid fits on the screen
 let bitdepth = 3; // bit depth of the color
 $:numColors = 2 ** bitdepth;
-$: document.documentElement.style.setProperty('--boxsize', `${boxsize}%`);
+
+$: if(typeof window !== 'undefined'){
+        document.documentElement.style.setProperty('--boxsize', `${boxsize}%`);
+    
+}
 
 $: numbers = Array.from({
     length: size
