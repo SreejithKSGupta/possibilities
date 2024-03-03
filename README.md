@@ -1,38 +1,53 @@
-# create-svelte
+# Possibilities
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Possibilities is a web application built with SvelteKit. It is used to create random color combinations in n*n grids, with a possibility to get some recognizable shapes.
+theoretically, it should be able to generate All low resolution images, like the image of old game charecters or even you in 100*100 resolution, but with less than 1 in a trillion chance.
 
-## Creating a project
+## Features
+- Change the number of rows and columns in the grid
+- Change the bit depth of the colors ( number of colors  combinations)
+- refresh rate of the image
+- theoretical possibility of getting recognizable shapes
+- lots of fun
 
-If you're seeing this, you've probably already done this step. Congrats!
+## screenshots
+![Tablet](reference_images/image.png)
+![Mobile Screen](reference_images/image-1.png)
+![Fold screen](reference_images/image-2.png)
+![Pc screen](reference_images/image-3.png)
+## Getting Started
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installing
+
+1. Clone the repository
+```bash 
+https://github.com/SreejithKSGupta/possibilities.git
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+2. Install dependencies
+```bash
+npm install
+```
+3. Start the development server
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+4. Open the browser and navigate to [http://localhost:3000](http://localhost:3000)
 
-## Building
+## Built With
+1. [SvelteKit](https://kit.svelte.dev/) - The web framework used
+2. CSS
+3. HTML
+4. hosted in [Vercel](https://vercel.com/)
 
-To create a production version of your app:
+## Authors
+- **Sreejith K S Gupta** - [SreejithKSGupta](https://myportfolio-8fi.pages.dev/)
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
