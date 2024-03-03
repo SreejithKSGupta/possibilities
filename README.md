@@ -11,10 +11,12 @@ theoretically, it should be able to generate All low resolution images, like the
 - lots of fun
 
 ## screenshots
-![Tablet](reference_images/image.png)
-![Mobile Screen](reference_images/image-1.png)
-![Fold screen](reference_images/image-2.png)
-![Pc screen](reference_images/image-3.png)
+<p align="center">
+  <img src="reference_images/image.png" alt="Tablet">
+  <img src="reference_images/image-1.png" alt="Mobile Screen">
+  <img src="reference_images/image-2.png" alt="Fold screen">
+  <img src="reference_images/image-3.png" alt="Pc screen">
+</p>
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
