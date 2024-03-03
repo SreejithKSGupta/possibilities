@@ -3,6 +3,9 @@
 Possibilities is a web application built with SvelteKit. It is used to create random color combinations in n*n grids, with a possibility to get some recognizable shapes.
 theoretically, it should be able to generate All low resolution images, like the image of old game charecters or even you in 100*100 resolution, but with less than 1 in a trillion chance.
 
+## Live Demo
+[Possiblities @ vercel](https://possibilities.vercel.app/)
+
 ## Features
 - Change the number of rows and columns in the grid
 - Change the bit depth of the colors ( number of colors  combinations)
