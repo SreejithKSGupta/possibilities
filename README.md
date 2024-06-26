@@ -20,6 +20,7 @@ theoretically, it should be able to generate All low resolution images, like the
   <img src="reference_images/image-2.png" alt="Fold screen">
   <img src="reference_images/image-3.png" alt="Pc screen">
 </p>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
